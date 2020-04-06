@@ -1,0 +1,31 @@
+h1 {
+  font-size:90px;
+  color:white;
+  text-align:center;
+}
+
+tittle {
+  text-align:center;
+  font-size:30px;
+  color:white;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width:100%;
+  z-index: -1;
+  background: var(--color-BrightTurquoise);
+  background-image: linear-gradient(
+      115deg,
+      rgba(41, 241, 195, 0.8),
+      rgba(41, 136, 206, 0.8)
+    ),
+url(https://www.bandt.com.au/information/uploads/2018/11/Diverse-team-1260x840.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
